@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestNGCOMMANDS]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestNGconvertion(failed)">
+    <classes>
+      <class name="testcase2.testngchromepractice">
+        <methods>
+          <include name="f"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testcase2.testngchromepractice -->
+      <class name="testngpac.TestNGdependsonmethod">
+        <methods>
+          <include name="method2"/>
+          <include name="method3"/>
+          <include name="method1"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testngpac.TestNGdependsonmethod -->
+      <class name="testngpac.testngdemo">
+        <methods>
+          <include name="flipkart"/>
+          <include name="google"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="gmail"/>
+          <include name="facebook"/>
+        </methods>
+      </class> <!-- testngpac.testngdemo -->
+      <class name="testngpac.TestNGclass2">
+        <methods>
+          <include name="searchfacebook"/>
+          <include name="beforeTest"/>
+          <include name="searchTestNG"/>
+          <include name="afterTest"/>
+          <include name="searchselenium"/>
+        </methods>
+      </class> <!-- testngpac.TestNGclass2 -->
+    </classes>
+  </test> <!-- TestNGconvertion(failed) -->
+</suite> <!-- Failed suite [TestNGCOMMANDS] -->
