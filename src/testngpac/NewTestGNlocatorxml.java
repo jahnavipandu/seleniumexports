@@ -24,7 +24,7 @@ public class NewTestGNlocatorxml {
   }	  
 	  
   @Test
-  public void home() {
+  public void homemenues() {
 	  driver.findElement(By.xpath("//*[@id=\"top-menu\"]/ul/li[1]/a")).click();
 	  driver.findElement(By.xpath("//*[@id=\"top-menu\"]/ul/li[2]/a")).click();
 	  driver.findElement(By.xpath("//*[@id=\"top-menu\"]/ul/li[3]/a")).click();
